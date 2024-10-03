@@ -1,0 +1,53 @@
+***Zero-shot Text-to-SQL:***
+
+Question: Which tools are in good condition?
+Friendly Response: The tools in good condition are: Hammer (SN002, DeWalt).
+
+
+Question: Are there any tools that need to be serviced?
+Friendly Response: Yes, the tools that need to be serviced are the Wrench (in poor condition) and the Screwdriver (in fair condition).
+
+
+Question: If there are any tools that need to be serviced, where can I find them?
+Friendly Response: You can find the wrench (Stanley) in Main Storage, Shelf A3.
+
+
+Question: Do any employees have any tools currently checked out that need to be serviced?
+Friendly Response: Yes, Alice Johnson has a wrench that needs servicing, and Charlie Brown has a screwdriver that is in fair condition.
+
+
+Question: Do any employees have any tools currently checked out that have not been serviced in the last two months?
+Friendly Response: Yes, the following employees have tools checked out that have not been serviced in the last two months: Bob Smith (Hammer), Charlie Brown (Screwdriver), and Alice Johnson (Wrench).
+
+
+Question: When Bob Smith is done with the tools he has checked out, where should he return them?
+Friendly Response: Bob Smith should return the tools to the Main Warehouse, location A2.
+
+***Single-domain Few-shot Text-to-SQL*** 
+
+Question: Which tools are in good condition?
+Friendly Response: The tools in good condition include: [(1, 'SN001', 'Drill', 'DeWalt', 'good'), (3, 'SN003', 'Wrench', 'Craftsman', 'good')].
+
+
+Question: Are there any tools that need to be serviced?
+Friendly Response: The Makita Screwdriver (SN003) needs to be serviced and is currently checked out by Charlie Brown. The Stanley Wrench (SN004) also needs servicing and is checked out by Alice Johnson.
+
+
+Question: If there are any tools that need to be serviced, where can I find them?
+Friendly Response: The Makita Screwdriver (SN003) needs to be serviced and is currently checked out by Charlie Brown. The Stanley Wrench (SN004) also needs servicing and is checked out by Alice Johnson.
+
+
+Question: Do any employees have any tools currently checked out that need to be serviced?
+Friendly Response: The Makita Screwdriver (SN003) needs to be serviced and is currently checked out by Charlie Brown, and the Stanley Wrench (SN004) needs to be serviced and is currently checked out by Alice Johnson.
+
+
+Question: Do any employees have any tools currently checked out that have not been serviced in the last two months?
+Friendly Response: The tools that need to be serviced and are currently checked out are the following: 
+
+1. **Dewalt Hammer (SN002)** - Currently checked out by Bob Smith.
+2. **Makita Screwdriver (SN003)** - Currently checked out by Charlie Brown.
+3. **Stanley Wrench (SN004)** - Currently checked out by Alice Johnson.
+
+
+Question: When Bob Smith is done with the tools he has checked out, where should he return them?
+Friendly Response: Bob Smith should return the tools to the Main Warehouse, shelf A2.

@@ -1,0 +1,10 @@
+{
+    "questions": [
+        "Which tools are in good condition?",
+        "Are there any tools that need to be serviced?",
+        "If there are any tools that need to be serviced, where can I find them?",
+        "Do any employees have any tools currently checked out that need to be serviced?",
+        "Do any employees have any tools currently checked out that have not been serviced in the last two months?",
+        "When Bob Smith is done with the tools he has checked out, where should he return them?"
+    ]
+}
